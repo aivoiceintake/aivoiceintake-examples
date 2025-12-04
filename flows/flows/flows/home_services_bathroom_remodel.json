@@ -1,0 +1,37 @@
+{
+  "flow": [
+    {
+      "ask": "What is your name?",
+      "fill": "contact.name"
+    },
+    {
+      "ask": "What is your email?",
+      "fill": "contact.email"
+    },
+    {
+      "ask": "Are we doing a tub-to-shower conversion, full remodel, or something else?",
+      "fill": "project.scope"
+    },
+    {
+      "ask": "Roughly how big is the bathroom? (small / medium / large)",
+      "fill": "project.size"
+    },
+    {
+      "ask": "Describe the main changes you want (fixtures, tile, layout, etc.).",
+      "fill": "project.description"
+    },
+    {
+      "ask": "Do you have a target budget in mind?",
+      "fill": "project.budget"
+    },
+    {
+      "ask": "What is your ideal start timeline?",
+      "fill": "project.timeline"
+    }
+  ],
+  "completeWhen": [
+    "contact.name",
+    "contact.email",
+    "project.scope"
+  ]
+}
