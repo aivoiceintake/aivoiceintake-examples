@@ -1,0 +1,29 @@
+{
+  "flow": [
+    {
+      "ask": "What is your name?",
+      "fill": "contact.name"
+    },
+    {
+      "ask": "What is your email?",
+      "fill": "contact.email"
+    },
+    {
+      "ask": "What product or area is this about?",
+      "fill": "ticket.product"
+    },
+    {
+      "ask": "Briefly describe the issue.",
+      "fill": "ticket.summary"
+    },
+    {
+      "ask": "How urgent is this? (low / medium / high)",
+      "fill": "ticket.severity"
+    }
+  ],
+  "completeWhen": [
+    "contact.name",
+    "contact.email",
+    "ticket.summary"
+  ]
+}
