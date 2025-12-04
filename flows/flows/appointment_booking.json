@@ -1,0 +1,29 @@
+{
+  "flow": [
+    {
+      "ask": "What is your name?",
+      "fill": "contact.name"
+    },
+    {
+      "ask": "What is your email?",
+      "fill": "contact.email"
+    },
+    {
+      "ask": "What type of appointment do you need?",
+      "fill": "appointment.type"
+    },
+    {
+      "ask": "Which day works best for you?",
+      "fill": "appointment.date_preference"
+    },
+    {
+      "ask": "What time of day works best? (morning / afternoon / evening)",
+      "fill": "appointment.time_preference"
+    }
+  ],
+  "completeWhen": [
+    "contact.name",
+    "contact.email",
+    "appointment.type"
+  ]
+}
